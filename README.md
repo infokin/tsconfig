@@ -1,6 +1,6 @@
 # tsconfig
 
-This package provides a common TypeScript configuration.
+This package provides common TypeScript configurations.
 
 ## Usage
 
@@ -14,18 +14,22 @@ npm install git://github.com/infokin/tsconfig.git#<version> --save-dev
 
 After the installation, extend from this package in your projects `tsconfig.json` like this:
 
-```
+```json
 {
-  "extends": "@infokin/tsconfig",
-  "compilerOptions": {
-    "outDir": ...
-  }
+  "extends": "@infokin/tsconfig"
+}
+```
+
+To use the Angular specifc TypeScript configuration extend from this package like this in your `tsconfig.json`:
+
+```json
+{
+  "extends": "@infokin/tsconfig/angular"
 }
 ```
 
 ## Bugs & Issues
-Something is not working as intended? Please feel free to report any bugs or issues using
-the [corresponding GitHub page](https://github.com/infokin/tsconfig/issues).
+Something is not working as intended? Please report bugs or issues on the [corresponding GitHub page](https://github.com/infokin/tsconfig/issues).
 
 ## Author
 Johannes Hillert ([GitHub](https://github.com/clovergaze))
