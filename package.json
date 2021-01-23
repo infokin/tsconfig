@@ -15,5 +15,9 @@
     "type": "git",
     "url": "https://github.com/infokin/tsconfig"
   },
-  "private": "true"
+  "private": "true",
+  "main": "tsconfig.json",
+  "files": [
+    "tsconfig.json"
+  ]
 }
