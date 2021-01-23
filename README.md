@@ -7,10 +7,12 @@ This package provides a common TypeScript configuration.
 First, install this package via:
 
 ```bash
-npm install git://github.com/infokin/tsconfig.git#<version, e.g. 0.1.0>
+npm install git://github.com/infokin/tsconfig.git#<version> --save-dev
 ```
 
-Then extend from this package in your projects `tsconfig.json` like this:
+`version` can be a specific release version, e.g. `0.1.0`. If `version` is omitted the package is installed from the `master` branch.
+
+After the installation, extend from this package in your projects `tsconfig.json` like this:
 
 ```
 {
