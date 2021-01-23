@@ -1,0 +1,19 @@
+{
+  "name": "@infokin/tsconfig",
+  "version": "0.1.0",
+  "description": "Provides a common TypeScript configuration.",
+  "author": {
+    "name": "Johannes Hillert",
+    "email": "johannes.hillert@infokin.org",
+    "url": "https://www.infokin.org"
+  },
+  "license": "MIT",
+  "keywords": [
+    "tsconfig"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/infokin/tsconfig"
+  },
+  "private": "true"
+}
