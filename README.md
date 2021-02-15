@@ -28,6 +28,12 @@ To use the Angular specifc TypeScript configuration extend from this package lik
 }
 ```
 
+## Additional information
+
+For more information on the TypeScript configuration see: [TSConfig Reference](https://www.typescriptlang.org/tsconfig)
+
+For more information on the Angular specific configuration see: [Template type checking](https://angular.io/guide/template-typecheck) and [Angular compiler options](https://angular.io/guide/angular-compiler-options)
+
 ## Bugs & Issues
 Something is not working as intended? Please report bugs or issues on the [corresponding GitHub page](https://github.com/infokin/tsconfig/issues).
 

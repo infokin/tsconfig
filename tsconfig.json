@@ -5,9 +5,8 @@
     "moduleResolution": "Node",
     "sourceMap": true,
     "strict": true,
+    "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
     "noUncheckedIndexedAccess": true,
     "forceConsistentCasingInFileNames": true,
     "lib": [
