@@ -1,6 +1,6 @@
 {
   "name": "@infokin/tsconfig",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Provides common TypeScript configurations.",
   "author": {
     "name": "Johannes Hillert",
