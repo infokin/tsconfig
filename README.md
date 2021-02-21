@@ -7,13 +7,22 @@ This package provides common TypeScript configurations.
 First, install this package via:
 
 ```bash
-npm install git://github.com/infokin/tsconfig#<version> --save-dev
+npm install @infokin/tsconfig --save-dev
 ```
 
-`version` can be a specific release version, e.g. `v0.1.0`. If `version` is omitted the package is installed from
-the `master` branch.
+This will install the latest version of this package from the default NPM package registry.
+Use `@infokin/tsconfig@<version>` to install a specific version.
 
-After the installation, extend from this package in your project's `tsconfig.json` file like this:
+Or use:
+
+```bash
+npm install git://github.com/infokin/tsconfig --save-dev
+```
+
+This will install this package directly from the `master` branch on GitHub.
+
+After the installation, extend from the configurations provided by this package in your project's `tsconfig.json` file
+like this:
 
 ```json
 {
@@ -21,7 +30,7 @@ After the installation, extend from this package in your project's `tsconfig.jso
 }
 ```
 
-To use the Angular specific TypeScript configuration extend from this package like this in your `tsconfig.json`:
+Use the Angular specific TypeScript configuration in your `tsconfig.json` like this:
 
 ```json
 {
