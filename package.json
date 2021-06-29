@@ -2,22 +2,25 @@
   "name": "@infokin/tsconfig",
   "version": "1.0.1",
   "description": "Provides common TypeScript configurations.",
+  "keywords": [
+    "tsconfig"
+  ],
+  "homepage": "https://github.com/infokin/tsconfig#readme",
+  "bugs": {
+    "url": "https://github.com/infokin/tsconfig/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/infokin/tsconfig.git"
+  },
+  "license": "MIT",
   "author": {
     "name": "Johannes Hillert",
     "email": "johannes.hillert@infokin.org",
     "url": "https://www.infokin.org"
   },
-  "license": "MIT",
-  "keywords": [
-    "tsconfig"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/infokin/tsconfig"
-  },
   "main": "tsconfig.json",
   "files": [
-    "tsconfig.json",
     "angular.json"
   ]
 }
