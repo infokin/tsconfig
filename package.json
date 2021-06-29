@@ -1,6 +1,6 @@
 {
   "name": "@infokin/tsconfig",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Provides common TypeScript configurations.",
   "keywords": [
     "tsconfig"
