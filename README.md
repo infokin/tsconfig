@@ -1,4 +1,4 @@
-# tsconfig
+# TypeScript configuration
 
 This package provides common TypeScript configurations.
 
