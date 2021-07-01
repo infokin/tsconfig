@@ -3,7 +3,9 @@
   "version": "1.1.0",
   "description": "Provides common TypeScript configurations.",
   "keywords": [
-    "tsconfig"
+    "tsconfig",
+    "typescript",
+    "configuration"
   ],
   "homepage": "https://github.com/infokin/tsconfig#readme",
   "bugs": {
