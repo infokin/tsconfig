@@ -10,19 +10,8 @@ First, install this package via:
 npm install @infokin/tsconfig --save-dev
 ```
 
-This will install the latest version of this package from the default NPM package registry.
-Use `@infokin/tsconfig@<version>` to install a specific version.
-
-Or use:
-
-```bash
-npm install git://github.com/infokin/tsconfig --save-dev
-```
-
-This will install this package directly from the `master` branch on GitHub.
-
-After the installation, extend from the configurations provided by this package in your project's `tsconfig.json` file
-like this:
+After the installation, extend from a configuration provided by this package in your project's `tsconfig.json` file like
+this:
 
 ```json
 {
