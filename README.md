@@ -37,8 +37,9 @@ and [Angular compiler options](https://angular.io/guide/angular-compiler-options
 
 ## Bugs & Issues
 
-Something is not working as intended? Please report bugs or issues on
-the [corresponding GitHub page](https://github.com/infokin/tsconfig/issues).
+If you're experiencing any issues or encountering any bugs, we would really appreciate it if you could report them on
+the [corresponding GitHub page](https://github.com/infokin/tsconfig/issues), so we can take a look and try to resolve
+them. Thank you for your help in making this project better!
 
 ## Author
 
