@@ -2,8 +2,10 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "experimentalDecorators": true,
+    "declaration": false,
+    "useDefineForClassFields": false,
     "lib": [
-      "ES2020",
+      "ES2022",
       "DOM"
     ]
   },
